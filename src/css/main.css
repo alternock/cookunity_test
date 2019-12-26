@@ -1,16 +1,15 @@
 body{
     margin:0px;
-    padding: 25px;
-    background: #fffa7f;      
-        
+    padding: 10px;
+    background:#50b5c3;              
   }
   
   
   .map{        
     margin: 0 auto;  
     padding: 10px;    
-    width: 1200px;
-    height: 1250px;
+    width: 900px;
+    height: 600px;
     background: #703500;
     border: 1px black solid;      
     border-radius: 5px;    
@@ -19,35 +18,38 @@ body{
   
   .cols{            
       display: flex; 
-      width: 1200px;
-      height: 100px;
-      border: 1px red solid;
+      width: 900px;
+      /*height: 100px;*/
+      /*border: 1px red solid;*/
   }
   
   .cell{           
       margin: 0px;
       padding: 0px;
-      width: 200px;
-      height: 100px;
-      border: 1px black solid;    
+      width: 120px;
+      height: 50px;
+      /*border: 1px black solid;*/    
       z-index: 1;
+      border-radius: 1px;
+      box-shadow:  black 11px;      
   }
   
   
-  .three{
+  .three{      
       background: green;
-      color: green;
+      color: green;      
+      background-image: url('./tile_green.png');
   }
   
   .route{
       background: white;
       color: white;        
+      background-image: url('./tile_route.png');
   }
   
   .avatar{            
       display: block;
-      margin: 0 auto;
-      padding: 20px;
+      margin: 0 auto;      
       background-position: center;    
       background-repeat: no-repeat;
       z-index: 3;
